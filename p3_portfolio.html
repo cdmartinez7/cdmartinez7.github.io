@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<nav style="background-color:red; text-align:center; font-weight:bold;">
+	<a href="p1_aboutme.html"> About me </a> &nbsp &nbsp &nbsp
+	<a href="p2_hobby.html"> My hobbies </a> &nbsp &nbsp &nbsp
+	<a href="p3_portfolio.html"> My portfolio </a> &nbsp &nbsp &nbsp
+	<a href="p4_favorites.html"> My favorites </a> &nbsp &nbsp &nbsp
+	<a href="p5_form.html"> Form </a> &nbsp &nbsp &nbsp
+</nav>
+	<h1>This is my Third page - My Portfolio </h1>
+
+<style>
+body{
+background-color: #4AF0ED;
+padding: 20px;
+font-family: Arial;
+}
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+* {
+	box-sizing: border-box; }
+
+.row{
+	margin: 8px-16px;
+}
+
+.column{
+	float: left;
+	width: 25%;
+}
+
+.row, .row>.column {
+	padding: 8px; }
+
+.content{
+	background-color: yellow;
+	color: #4AF0ED;
+	padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+.column { width: 50%;}
+}
+
+@media screen and (max-width: 600px) {
+.column { width: 100%;}
+}
+
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+</style>
+
+	<div class="row">
+		<div class="column">
+			<div class="content">
+				<img src="bora.jpg" alt="Vacation Card" height="400" width="600" style="width:100%">
+				<h3> My Dream Vacation 1 </h3>
+				<p> Looks nice, and would be a good place to visit. The water looks very clean and swimmable. I would definitely go. </p>
+			</div>
+		</div>
+	<div class="column">
+			<div class="content">
+				<img src="rome.jpg" alt=" rome picture" height="400" width="500" style="width:100%">
+				<h3> My Dream Vacation 2 </h3>
+				<p> I like the history of it, all the history and battles fought in Rome seem very appealing. Cool.</p>
+			</div>
+		</div>
+	<div class="column">
+			<div class="content">
+				<img src="maldive.jpg" alt="Maldives picture" height="400" width="600" style="width:100%">
+				<h3> My Dream Vacation 3 </h3>
+				<p> It looks like Bora Bora and it seems like another nice place to be in. </p>
+			</div>
+		</div>
+	<div class="column">
+			<div class="content">
+				<img src="maui.jfif" alt="Maui Picture" height="400" width="600" style="width:100%">
+				<h3> My Dream Vacation 4 </h3>
+				<p> I like island adventures and I feel like this one would be a nice addition. </p>
+			</div>
+		</div>
+	<div class="column">
+			<div class="content">
+				<img src="swiss.jpg" alt="Swiss mountain range picture" height="400" width="600" style="width:100%">
+				<h3> My Dream Vacation 5 </h3>
+				<p> I like mountain ranges like these. I think going here would be a fun experience and I have also seen this place on the media. It looks like a very good place to go.</p>
+			</div>
+		</div>
+
+
+
+
+</body>
+</html>

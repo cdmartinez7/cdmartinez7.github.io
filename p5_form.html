@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Form</title>
+			 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<body>
+	<nav style="background-color:red; text-align:center; font-weight:bold;">
+	<a href="p1_aboutme.html"> About me </a> &nbsp &nbsp &nbsp
+	<a href="p2_hobby.html"> My hobbies </a> &nbsp &nbsp &nbsp
+	<a href="p3_portfolio.html"> My portfolio </a> &nbsp &nbsp &nbsp
+	<a href="p4_favorites.html"> My favorites </a> &nbsp &nbsp &nbsp
+	<a href="p5_form.html"> Form </a> &nbsp &nbsp &nbsp
+</nav>
+
+<h1 style="text-align:center;"> My Contact Form  </h1>
+	<h2 style="text-align:center;"> This is a way to contact me </h2>
+
+	<form>
+		<label> First Name: <input type="text"> </label> <br><br>
+		
+		<label> Last Name: <input type="text"> </label>	<br><br>
+		
+		<p> <b> Best Way to Contact </b> </p>
+		
+		<label> What do you prefer? </label> &nbsp &nbsp &nbsp
+		
+		<select> 
+			<option> Phone Call </option>
+			<option> Video Call </option>
+			<option> Text </option>
+			<option> Email </option>
+			<option> In-person Meeting </option>
+		</select>
+		
+	<br><br><b>
+	
+
+	<fieldset>
+		<legend> Which office is closest to you? (Choose One) </legend>
+			<input type="radio"> 
+				<label> Chicago - Northside </label>
+			<input type="radio"> 
+				<label> Chicago - Westside </label>
+			<input type="radio"> 
+				<label> Chicago - Southside </label>
+			<input type="radio"> 
+				<label> Chicago - Northwest </label>
+	</fieldset> <br> <br>
+	
+	<label> Date of Visit: </label>
+		<input type="date"> <br> <br>
+	<label> Time of Visit: </label>
+		<input type="time"> <br> <br>
+		
+	<label> Attach your Business Plan/Resume: </label>
+	<br> <br> <input type="file"> <br><br>
+	
+	<label> Attach your Business Card: </label>
+	<br> <br> <input type="file"> <br><br>
+	
+	<label> How long do you want to meet for: </label>
+		<input type="number" min="1" max="45"> minutes <br> <br>
+		
+	<label> Select your favorite color swag </label>
+		<input type="color"> <br> <br>	
+	
+	<label> Add your email: </label>
+		<input type="email" placeholder="johnsmith@gmail.com"> <br> <br>
+	
+	<label> Add your phone number: </label>
+		<input type="tel" placeholder="123.123.1234" pattern="[0-9]{3}.[0-9]{3}.[0-9]{4}" required>
+	
+		<select> 
+			<option> Home </option>
+			<option> Cell </option>
+			<option> Work </option>
+		</select> <br><br>
+
+	<input type="submit" value="Submit"> &nbsp&nbsp&nbsp
+	<input type="reset" value="Reset">
+
+	</form>
+	
+</body>
+</html>
